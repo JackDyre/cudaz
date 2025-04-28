@@ -4,6 +4,7 @@ pub const Cudaslice = wrappers.CudaSlice;
 pub const Device = @import("device.zig");
 pub const Compile = @import("compile.zig");
 pub const LaunchConfig = @import("launchconfig.zig").LaunchConfig;
+pub const Module = wrappers.Module;
 pub const CAPI = @import("c.zig");
 pub usingnamespace @import("path.zig");
 pub const Rng = @import("rng.zig");
